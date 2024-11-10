@@ -1,0 +1,236 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+	<meta charset="utf-8" />
+	<script data-require="angular.js@1.5.x"
+			src=
+"https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.min.js"
+			data-semver="1.5.11">
+	</script>
+
+	<script>
+		var app = angular.module('myApp', []);
+
+		app.controller('MainCtrl', function($scope) {
+			$scope.models = [{}];
+			$scope.clients = ['TAGIC', 'CIGNA', 'LVA', 'NOVOLIN'];
+			$scope.versions = {
+				TAGIC: ['3.2', '4.3'],
+				CIGNA: ['3.3', '4.2'],
+				LVA: ['BASF', '4.5'],
+                NOVOLIN:['2.2', '2.5'],
+			}
+			$scope.addRow = function() {
+				$scope.models.push({});
+			}
+            $scope.resetValue = function() {
+				 $scope.model.client="";
+                 $scope.model.version="";
+			}
+            $scope.resetDropDown=function(){
+ 				 var myTypes=$scope.models;
+   				 $scope.models=myTypes[0];
+			}
+			$scope.getVersion = function(client) {
+				return $scope.versions[client];
+			}
+		});
+	</script>
+
+    <style>
+      div {
+        margin-bottom: 100px;
+      }
+      label {
+        display: inline-block;
+        width: 500px;
+        text-align: center;
+      }
+    </style>
+</head>
+
+<body ng-controller="MainCtrl">
+	<center>
+		<h1 style="color: DarkBlue;">
+			Product Automation for : 
+		</h1>
+
+
+
+<form>
+  
+  <input type="radio" ng-model="myVar" value="core">MCUBE
+  <input type="radio" ng-model="myVar" value="lva">LVA
+  <input type="radio" ng-model="myVar" value="client">CLIENT
+	<input type="radio" ng-model="myVar" value="installer">Installer
+</form>
+
+<div ng-switch="myVar">
+  <div ng-switch-when="core">
+     <h3 style="color: blue;">CORE</h3>
+     <p>Welcome to the sanity of MCUBE core.</p>
+     
+     <br>
+     <table>
+        <tr><td>
+               	<label>URL:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <input type="text" ng-model="urlCore"></label>
+		</td></tr>
+        <tr><td>
+               	<label>USERNAME:&ensp; <input type="text" ng-model="usernameCore"></label>
+		</td></tr>
+        <tr><td>
+               	<label>PASSWORD:&ensp; <input type="text" ng-model="passwordCore"></label>
+		</td></tr>
+        <tr><td>
+               	<label>DATASET:&ensp;&ensp;&ensp; <input type="text" ng-model="datasetCore"></label>
+		</td></tr>
+        <tr><td>
+             <label>MAIL TO:&ensp;&ensp;&ensp;&ensp;<input type="text" ng-model="mailrecCore"></label>
+		</td></tr>
+
+        </table>
+     <br><br>
+		<input type="reset" value="Reset">
+  		<input type="submit" value="Submit">
+  </div>
+	<div>
+		<h1>Automation  for Installer</h1>
+	</div>
+  <div ng-switch-when="client">
+     <h3 style="color: blue;">CLIENT</h3>
+     <p>Welcome to the Sanity of Client. Please fill the details below :</p>
+
+
+		<table>
+			<tr>
+				<th>CLIENT</th>
+				<th>VERSION</th>
+				<th>Action</th>
+			</tr>
+
+			<tr ng-repeat="model in models">
+				<td>
+					<select ng-options=
+					"client as client for client in clients"
+							ng-model="model.client"
+							ng-change='getVersion(model.client)'>
+					</select>
+				</td>
+				<td>
+					<select ng-options=
+			"version as version for version in getVersion(model.client)"
+							ng-model="model.version">
+					</select>
+				</td>
+				<td>
+					<button ng-click="addRow()">Add More Clients</button>
+				</td>
+                <td>
+                	<button data-ng-click="resetDropDown()">Reset</button>
+                </td>
+			</tr>
+
+		</table>
+        <br>
+        <br>
+
+
+
+
+        <form action="addDetails">
+        <table>
+        <tr><td>
+               	<label>URL:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <input type="text" ng-model="url"></label>
+		</td></tr>
+        <tr><td>
+               	<label>USERNAME:&ensp; <input type="text" ng-model="username"></label>
+		</td></tr>
+        <tr><td>
+               	<label>PASSWORD:&ensp; <input type="text" ng-model="password"></label>
+		</td></tr>
+        <tr><td>
+               	<label>DATASET:&ensp;&ensp;&ensp; <input type="text" ng-model="dataset"></label>
+		</td></tr>
+        <tr><td>
+             <label>MAIL TO:&ensp;&ensp;&ensp;&ensp;<input type="text" ng-model="mailrec"></label>
+		</td></tr>
+
+        </table>
+
+<br><br>
+		<input type="reset" value="Reset">
+  		<input type="submit" value="Submit">
+         </form>
+		<!--h3 style="color:lightblue">Selections</h3>
+		<p ng-repeat="model in models">
+			{{model.client}} - {{model.version}}
+		</p-->
+     </div>
+
+
+     <div ng-switch-when="lva">
+     <h3 style="color: blue;">LVA</h3>
+     <p>Welcome to the sanity of LVA.</p>
+     
+     <br>
+     <table>
+        <tr><td>
+               	<label>URL:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <input type="text" ng-model="urlLva"></label>
+		</td></tr>
+        <tr><td>
+               	<label>USERNAME:&ensp; <input type="text" ng-model="usernameLva"></label>
+		</td></tr>
+        <tr><td>
+               	<label>PASSWORD:&ensp; <input type="text" ng-model="passwordLva"></label>
+		</td></tr>
+        <tr><td>
+               	<label>DATASET:&ensp;&ensp;&ensp; <input type="text" ng-model="datasetLva"></label>
+		</td></tr>
+        <tr><td>
+             <label>MAIL TO:&ensp;&ensp;&ensp;&ensp;<input type="text" ng-model="mailrecLva"></label>
+		</td></tr>
+
+        </table>
+     <br><br>
+		<input type="reset" value="Reset">
+  		<input type="submit" value="Submit">
+     
+ 	 </div>
+<!-- Installer	-->
+	<div ng-switch-when="installer">
+		<h3 style="color: blue;">INSTALLER</h3>
+		<p>Welcome to the sanity of Installer</p>
+
+		<br>
+		<table>
+			<tr><td>
+				<label>URL:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <input type="text" ng-model="urlCore"></label>
+			</td></tr>
+			<tr><td>
+				<label>USERNAME:&ensp; <input type="text" ng-model="usernameCore"></label>
+			</td></tr>
+			<tr><td>
+				<label>PASSWORD:&ensp; <input type="text" ng-model="passwordCore"></label>
+			</td></tr>
+			<tr><td>
+				<label>DATASET:&ensp;&ensp;&ensp; <input type="text" ng-model="datasetCore"></label>
+			</td></tr>
+			<tr><td>
+				<label>MAIL TO:&ensp;&ensp;&ensp;&ensp;<input type="text" ng-model="mailrecCore"></label>
+			</td></tr>
+
+		</table>
+		<br><br>
+		<input type="reset" value="Reset">
+		<input type="submit" value="Submit">
+	</div>
+ 	 
+	</center>
+
+</body>
+
+</html>
+    

@@ -1,0 +1,98 @@
+[1;34m2023-04-25 18:44:20,539[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:?[0;39m - Starting SeleniumDrApplication using Java 11.0.16 on TCGDRLap266 with PID 3664 (D:\AG\Selenium_AA_Clone_CTEC\target\classes started by AltamashG in D:\AG\Selenium_AA_Clone_CTEC)
+[1;34m2023-04-25 18:44:20,555[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:634[0;39m - No active profile set, falling back to 1 default profile: "default"
+[1;34m2023-04-25 18:44:22,261[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:108[0;39m - Tomcat initialized with port(s): 8080 (http)
+[1;34m2023-04-25 18:44:22,262[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[1;34m2023-04-25 18:44:22,262[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[1;34m2023-04-25 18:44:22,263[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[1;34m2023-04-25 18:44:22,268[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[1;34m2023-04-25 18:44:22,278[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+[1;34m2023-04-25 18:44:22,279[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardService:173[0;39m - Starting service [Tomcat]
+[1;34m2023-04-25 18:44:22,279[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine:173[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[1;34m2023-04-25 18:44:22,606[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring embedded WebApplicationContext
+[1;34m2023-04-25 18:44:22,606[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292[0;39m - Root WebApplicationContext: initialization completed in 1973 ms
+[1;34m2023-04-25 18:44:22,749[0;39m - [34mINFO [0;39m [36morg.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:478[0;39m - Autowired annotation is not supported on static fields: private static org.springframework.jdbc.core.JdbcTemplate com.jdbc.dao.PercentageCountDao.jdbcTemplate
+[1;34m2023-04-25 18:44:23,165[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+[1;34m2023-04-25 18:44:23,193[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:220[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+[1;34m2023-04-25 18:44:23,204[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:61[0;39m - Started SeleniumDrApplication in 3.198 seconds (JVM running for 4.127)
+[1;34m2023-04-25 18:44:27,485[0;39m - [34mINFO [0;39m [36morg.apache.tomcat.util.http.parser.Cookie:173[0;39m - A cookie header was received [g_state={"i_l":0}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[1;34m2023-04-25 18:44:27,496[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[1;34m2023-04-25 18:44:27,497[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:525[0;39m - Initializing Servlet 'dispatcherServlet'
+[1;34m2023-04-25 18:44:27,498[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:547[0;39m - Completed initialization in 1 ms
+[1;34m2023-04-25 18:44:34,188[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:110[0;39m - HikariPool-1 - Starting...
+[1;34m2023-04-25 18:44:34,688[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:123[0;39m - HikariPool-1 - Start completed.
+[1;34m2023-04-25 18:44:53,348[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.AA_Clone_70_Users.com.mcube.qa.sanity.AACloneConcurrency:41[0;39m - Hello world!
+[1;34m2023-04-25 18:44:56,326[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.AA_Clone_70_Users.com.mcube.qa.sanity.AACloneConcurrency:41[0;39m - Hello world!
+[1;34m2023-04-25 18:44:59,171[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.remote.ProtocolHandshake:66[0;39m - Detected dialect: W3C
+[1;34m2023-04-25 18:44:59,231[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:140[0;39m - Unable to find an exact match for CDP version 112, so returning the closest version found: a no-op implementation
+[1;34m2023-04-25 18:44:59,231[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:146[0;39m - Unable to find CDP implementation matching 112.
+[1;34m2023-04-25 18:44:59,232[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.chromium.ChromiumDriver:128[0;39m - Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[1;34m2023-04-25 18:44:59,334[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.AA_Clone_70_Users.com.mcube.qa.sanity.AACloneConcurrency:41[0;39m - Hello world!
+[1;34m2023-04-25 18:45:00,579[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.remote.ProtocolHandshake:66[0;39m - Detected dialect: W3C
+[1;34m2023-04-25 18:45:00,596[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:140[0;39m - Unable to find an exact match for CDP version 112, so returning the closest version found: a no-op implementation
+[1;34m2023-04-25 18:45:00,597[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:146[0;39m - Unable to find CDP implementation matching 112.
+[1;34m2023-04-25 18:45:00,597[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.chromium.ChromiumDriver:128[0;39m - Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[1;34m2023-04-25 18:45:02,335[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.AA_Clone_70_Users.com.mcube.qa.sanity.AACloneConcurrency:41[0;39m - Hello world!
+[1;34m2023-04-25 18:45:03,698[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.remote.ProtocolHandshake:?[0;39m - Detected dialect: W3C
+[1;34m2023-04-25 18:45:03,729[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:?[0;39m - Unable to find an exact match for CDP version 112, so returning the closest version found: a no-op implementation
+[1;34m2023-04-25 18:45:03,730[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:?[0;39m - Unable to find CDP implementation matching 112.
+[1;34m2023-04-25 18:45:03,731[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.chromium.ChromiumDriver:128[0;39m - Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[1;34m2023-04-25 18:45:05,337[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.AA_Clone_70_Users.com.mcube.qa.sanity.AACloneConcurrency:41[0;39m - Hello world!
+[1;34m2023-04-25 18:45:06,729[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.remote.ProtocolHandshake:66[0;39m - Detected dialect: W3C
+[1;34m2023-04-25 18:45:06,761[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:140[0;39m - Unable to find an exact match for CDP version 112, so returning the closest version found: a no-op implementation
+[1;34m2023-04-25 18:45:06,761[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:146[0;39m - Unable to find CDP implementation matching 112.
+[1;34m2023-04-25 18:45:06,761[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.chromium.ChromiumDriver:?[0;39m - Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[1;34m2023-04-25 18:45:08,353[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.AA_Clone_70_Users.com.mcube.qa.sanity.AACloneConcurrency:41[0;39m - Hello world!
+[1;34m2023-04-25 18:45:10,026[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.remote.ProtocolHandshake:66[0;39m - Detected dialect: W3C
+[1;34m2023-04-25 18:45:10,078[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:140[0;39m - Unable to find an exact match for CDP version 112, so returning the closest version found: a no-op implementation
+[1;34m2023-04-25 18:45:10,078[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:146[0;39m - Unable to find CDP implementation matching 112.
+[1;34m2023-04-25 18:45:10,078[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.chromium.ChromiumDriver:128[0;39m - Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[1;34m2023-04-25 18:45:11,360[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.AA_Clone_70_Users.com.mcube.qa.sanity.AACloneConcurrency:?[0;39m - Hello world!
+[1;34m2023-04-25 18:45:46,499[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:55[0;39m - Starting SeleniumDrApplication using Java 11.0.16 on TCGDRLap266 with PID 45880 (D:\AG\Selenium_AA_Clone_CTEC\target\classes started by AltamashG in D:\AG\Selenium_AA_Clone_CTEC)
+[1;34m2023-04-25 18:45:46,504[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:634[0;39m - No active profile set, falling back to 1 default profile: "default"
+[1;34m2023-04-25 18:45:48,059[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:108[0;39m - Tomcat initialized with port(s): 8080 (http)
+[1;34m2023-04-25 18:45:48,060[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[1;34m2023-04-25 18:45:48,061[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[1;34m2023-04-25 18:45:48,061[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[1;34m2023-04-25 18:45:48,066[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[1;34m2023-04-25 18:45:48,076[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+[1;34m2023-04-25 18:45:48,076[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardService:173[0;39m - Starting service [Tomcat]
+[1;34m2023-04-25 18:45:48,076[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine:173[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[1;34m2023-04-25 18:45:48,341[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring embedded WebApplicationContext
+[1;34m2023-04-25 18:45:48,341[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292[0;39m - Root WebApplicationContext: initialization completed in 1775 ms
+[1;34m2023-04-25 18:45:48,483[0;39m - [34mINFO [0;39m [36morg.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:478[0;39m - Autowired annotation is not supported on static fields: private static org.springframework.jdbc.core.JdbcTemplate com.jdbc.dao.PercentageCountDao.jdbcTemplate
+[1;34m2023-04-25 18:45:48,892[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+[1;34m2023-04-25 18:45:48,921[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:220[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+[1;34m2023-04-25 18:45:48,939[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:61[0;39m - Started SeleniumDrApplication in 2.974 seconds (JVM running for 3.869)
+[1;34m2023-04-25 18:45:50,783[0;39m - [34mINFO [0;39m [36morg.apache.tomcat.util.http.parser.Cookie:173[0;39m - A cookie header was received [g_state={"i_l":0}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[1;34m2023-04-25 18:45:50,790[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[1;34m2023-04-25 18:45:50,790[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:525[0;39m - Initializing Servlet 'dispatcherServlet'
+[1;34m2023-04-25 18:45:50,792[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:547[0;39m - Completed initialization in 2 ms
+[1;34m2023-04-25 18:45:50,844[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:110[0;39m - HikariPool-1 - Starting...
+[1;34m2023-04-25 18:45:51,171[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:123[0;39m - HikariPool-1 - Start completed.
+[1;34m2023-04-25 18:47:06,884[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:350[0;39m - HikariPool-1 - Shutdown initiated...
+[1;34m2023-04-25 18:47:06,893[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:352[0;39m - HikariPool-1 - Shutdown completed.
+[1;34m2023-04-25 18:47:11,268[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:55[0;39m - Starting SeleniumDrApplication using Java 11.0.16 on TCGDRLap266 with PID 47040 (D:\AG\Selenium_AA_Clone_CTEC\target\classes started by AltamashG in D:\AG\Selenium_AA_Clone_CTEC)
+[1;34m2023-04-25 18:47:11,272[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:634[0;39m - No active profile set, falling back to 1 default profile: "default"
+[1;34m2023-04-25 18:47:12,769[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:108[0;39m - Tomcat initialized with port(s): 8080 (http)
+[1;34m2023-04-25 18:47:12,771[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[1;34m2023-04-25 18:47:12,771[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[1;34m2023-04-25 18:47:12,771[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[1;34m2023-04-25 18:47:12,776[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[1;34m2023-04-25 18:47:12,786[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+[1;34m2023-04-25 18:47:12,786[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardService:173[0;39m - Starting service [Tomcat]
+[1;34m2023-04-25 18:47:12,786[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine:173[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[1;34m2023-04-25 18:47:13,072[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring embedded WebApplicationContext
+[1;34m2023-04-25 18:47:13,074[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292[0;39m - Root WebApplicationContext: initialization completed in 1747 ms
+[1;34m2023-04-25 18:47:13,219[0;39m - [34mINFO [0;39m [36morg.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:478[0;39m - Autowired annotation is not supported on static fields: private static org.springframework.jdbc.core.JdbcTemplate com.jdbc.dao.PercentageCountDao.jdbcTemplate
+[1;34m2023-04-25 18:47:13,636[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:?[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+[1;34m2023-04-25 18:47:13,668[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:220[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+[1;34m2023-04-25 18:47:13,683[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:61[0;39m - Started SeleniumDrApplication in 2.909 seconds (JVM running for 3.765)
+[1;34m2023-04-25 18:47:16,182[0;39m - [34mINFO [0;39m [36morg.apache.tomcat.util.http.parser.Cookie:173[0;39m - A cookie header was received [g_state={"i_l":0}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[1;34m2023-04-25 18:47:16,190[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[1;34m2023-04-25 18:47:16,191[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:525[0;39m - Initializing Servlet 'dispatcherServlet'
+[1;34m2023-04-25 18:47:16,192[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:547[0;39m - Completed initialization in 1 ms
+[1;34m2023-04-25 18:47:21,080[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:110[0;39m - HikariPool-1 - Starting...
+[1;34m2023-04-25 18:47:21,498[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:123[0;39m - HikariPool-1 - Start completed.

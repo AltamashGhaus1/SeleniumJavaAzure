@@ -1,0 +1,171 @@
+[1;34m2023-01-12 11:30:45,969[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:?[0;39m - Starting SeleniumDrApplication using Java 11.0.11 on TCGDRLap198 with PID 19104 (D:\SeleniumDR_Test\target\classes started by NandishM in D:\SeleniumDR_Test)
+[1;34m2023-01-12 11:30:45,985[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:634[0;39m - No active profile set, falling back to 1 default profile: "default"
+[1;34m2023-01-12 11:30:48,552[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:108[0;39m - Tomcat initialized with port(s): 8080 (http)
+[1;34m2023-01-12 11:30:48,564[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+[1;34m2023-01-12 11:30:48,565[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardService:173[0;39m - Starting service [Tomcat]
+[1;34m2023-01-12 11:30:48,565[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine:173[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[1;34m2023-01-12 11:30:49,054[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring embedded WebApplicationContext
+[1;34m2023-01-12 11:30:49,055[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292[0;39m - Root WebApplicationContext: initialization completed in 2973 ms
+[1;34m2023-01-12 11:30:49,787[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+[1;34m2023-01-12 11:30:49,825[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:220[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+[1;34m2023-01-12 11:30:49,840[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:61[0;39m - Started SeleniumDrApplication in 4.505 seconds (JVM running for 11.533)
+[1;34m2023-01-12 11:31:40,727[0;39m - [34mINFO [0;39m [36morg.apache.tomcat.util.http.parser.Cookie:?[0;39m - A cookie header was received [g_state={"i_l":0}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[1;34m2023-01-12 11:31:40,749[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[1;34m2023-01-12 11:31:40,750[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:525[0;39m - Initializing Servlet 'dispatcherServlet'
+[1;34m2023-01-12 11:31:40,754[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:547[0;39m - Completed initialization in 3 ms
+[1;34m2023-01-12 11:31:48,465[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:110[0;39m - HikariPool-1 - Starting...
+[1;34m2023-01-12 11:31:49,641[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:123[0;39m - HikariPool-1 - Start completed.
+[1;34m2023-01-12 11:40:37,267[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.IpdsSanity3_2:46[0;39m - Hello world!
+[1;34m2023-01-12 11:40:43,804[0;39m - [34mINFO [0;39m [36mio.github.bonigarcia.wdm.WebDriverManager:1237[0;39m - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+[1;34m2023-01-12 11:40:43,871[0;39m - [34mINFO [0;39m [36mio.github.bonigarcia.wdm.WebDriverManager:1582[0;39m - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+[1;34m2023-01-12 11:40:44,967[0;39m - [34mINFO [0;39m [36mio.github.bonigarcia.wdm.online.Downloader:127[0;39m - Downloading https://chromedriver.storage.googleapis.com/108.0.5359.71/chromedriver_win32.zip
+[1;34m2023-01-12 11:40:46,623[0;39m - [34mINFO [0;39m [36mio.github.bonigarcia.wdm.online.Downloader:188[0;39m - Extracting driver from compressed file chromedriver_win32.zip
+[1;34m2023-01-12 11:40:46,986[0;39m - [34mINFO [0;39m [36mio.github.bonigarcia.wdm.WebDriverManager:1290[0;39m - Exporting webdriver.chrome.driver as C:\Users\NandishM\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+[1;34m2023-01-12 11:40:54,742[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.remote.ProtocolHandshake:66[0;39m - Detected dialect: W3C
+[1;34m2023-01-12 11:40:54,935[0;39m - [31mWARN [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:140[0;39m - Unable to find an exact match for CDP version 108, so returning the closest version found: 104
+[1;34m2023-01-12 11:40:54,936[0;39m - [34mINFO [0;39m [36morg.openqa.selenium.devtools.CdpVersionFinder:148[0;39m - Found CDP implementation for version 108 of 104
+[1;34m2023-01-12 11:41:29,118[0;39m - [1;31mERROR[0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.IpdsSanity3_2:181[0;39m - 
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.126)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'TCGDRLAP198', ip: '172.20.25.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c37af722aaae1362608bc2cc78c6361b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\NandishM\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53836/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c37af722aaae1362608bc2cc78c6361b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.jdbc.automation.executor.ipds.Common.SeleniumUtils.takeScreenShot(SeleniumUtils.java:421)
+	at com.jdbc.automation.executor.ipds.Common.SeleniumUtils.loginBIValid(SeleniumUtils.java:217)
+	at com.jdbc.automation.executor.ipds.com.mcube.qa.sanity.IpdsSanity3_2.executeAutomation(IpdsSanity3_2.java:94)
+	at com.jdbc.service.SanityService.setVersionDetails(SanityService.java:62)
+	at com.jdbc.controllers.ControlRest.setVersionDetails(ControlRest.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[1;34m2023-01-12 11:41:29,120[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.IpdsSanity3_2:187[0;39m - Driver is quiting
+[1;34m2023-01-12 11:41:29,134[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.IpdsSanity3_2:?[0;39m - 2
+[1;34m2023-01-12 11:41:29,135[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.Common.Records:77[0;39m - Screenshots : 1
+[1;34m2023-01-12 11:41:29,167[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.IpdsSanity3_2:196[0;39m - Records{testCaseName='SAN-URL-01', name='URL REACHABILITY', outcome=true, expectedResult='LOGIN PAGE SHOULD APPEAR'}
+[1;34m2023-01-12 11:41:29,168[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.Common.Records:77[0;39m - Screenshots : 3
+[1;34m2023-01-12 11:41:29,168[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.IpdsSanity3_2:?[0;39m - Records{testCaseName='SAN-LOGIN-01', name='INVALID LOGIN', outcome=true, expectedResult='INVALID LOGIN MESSAGE APPEARS'}
+[1;34m2023-01-12 11:41:29,174[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.pdf.creator.PdfCreator:29[0;39m - [SANITY][PDF CREATOR] Creating pdf.......
+[1;34m2023-01-12 11:41:29,197[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.pdf.creator.PdfCreator:32[0;39m - [SANITY][PDF CREATOR] Report folder path: reports\1673503889175\
+[1;34m2023-01-12 11:41:32,438[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.pdf.creator.PdfCreator:121[0;39m - [SANITY][PDF CREATOR] Finished creating pdf.......
+[1;34m2023-01-12 11:41:32,439[0;39m - [34mINFO [0;39m [36mcom.jdbc.automation.executor.ipds.com.mcube.qa.sanity.IpdsSanity3_2:201[0;39m - [SANITY][EMAIL] pdf found, sending email.......
+[1;34m2023-01-12 11:41:32,452[0;39m - [1;31mERROR[0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:175[0;39m - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.jdbc.automation.executor.ipds.com.mcube.qa.sanity.IpdsSanity3_2.executeAutomation(IpdsSanity3_2.java:214)
+	at com.jdbc.service.SanityService.setVersionDetails(SanityService.java:62)
+	at com.jdbc.controllers.ControlRest.setVersionDetails(ControlRest.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)

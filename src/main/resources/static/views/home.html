@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--    bootstrap css-->
+    <!-- <link src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">-->
+    <!--    <script src="https://kit.fontawesome.com/43b1359d62.js" crossorigin="anonymous"></script>-->
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+        }
+        
+        label {
+	font-size: 14px;
+}
+
+.formholder {
+	width: 472px;
+	background: #3c8bcf;
+	padding: 0 2%;
+	height: 100vh;
+	color: #fff;
+	float: right;
+}
+
+.left-imageholder {
+	width: 61%;
+	float: left;
+	height: 100vh;
+	background:
+		url(https://tflive.wpenginepowered.com/wp-content/uploads/2019/05/Top-Statistical-Analysis-Software-for-Sales-Teams-1.png)
+		-0px 0px no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.formholder label {
+	color: #fff;
+	float: left;
+	width: 32%;
+}
+
+.formholder input[type="text"] {
+	width: 65%;
+	border-radius: 2px;
+	border: 0;
+	padding: 3px;
+	margin-bottom: 10px;
+	color: #666;
+}
+.formholder input[type="password"] {
+	width: 65%;
+	border-radius: 2px;
+	border: 0;
+	padding: 3px;
+	margin-bottom: 10px;
+	color: #666;
+}
+.formholder h3 {
+	margin-bottom: 5px;
+}
+
+.formholder p {
+	margin-top: 0px;
+}
+
+.formholder select {
+	width: 66%;
+	border-radius: 2px;
+	border: 0;
+	padding: 3px;
+	margin-bottom: 6px;
+	color: #666;
+}
+
+.formh1 {
+	width: 100%;
+	float: left;
+}
+
+.actionbtns{    float: right;
+    margin-top: 10px;    width: 54%;}
+
+.actionbtns input {
+	background: #295d7c;
+	color: #ededed;
+	border: none;
+	padding: 6px 20px;
+	border-radius: 1px;
+	font-size: 11.5px;
+}
+.actionbtns input:hover{
+    background-color: blue;
+}
+.actionbtns input:disabled{
+     background-color: grey;
+}
+
+
+.footer{    width: 100%;
+    position: absolute;
+
+    bottom: 0;
+    height: 19px;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #292c2e;}
+
+.dataset-installer{
+    display: flex;
+}
+
+<!--.tooltipText{-->
+<!--    background-color: #fff;-->
+<!--    position: absolute;-->
+<!--    bottom: 130%;-->
+<!--    padding: 10px 15px;-->
+<!--    border-radius: 5px;-->
+<!--    font-size:14px;-->
+<!--    opacity: 0;-->
+<!--    transition: all .5s;-->
+<!--}-->
+
+i{
+    position: absolute;
+    color: black;
+    margin-left: 70px;
+    padding-top: 1px;
+    margin-right: 50px;
+}
+
+<!--tooltipText::after{-->
+<!--    content: '';-->
+<!--    border-width: 5px;-->
+<!--    border-style: solid;-->
+<!--    border-color: #fff transparent transparent transparent;-->
+<!--    position: absolute;-->
+<!--    top: 100%;-->
+<!--    left: 40%;-->
+<!--    margin-left: 5%;-->
+<!--}-->
+
+i:hover .tooltipText{
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.lavelInstaller{
+<!--    margin-left: 5px;-->
+}
+
+
+
+<!-- Progress bar-->
+#myProgressbar{
+    width: 60px;
+    cursor: pointer;
+<!--    align-items: center;-->
+}
+
+.bottom{
+    margin-top: 30%;
+}
+
+#progress{
+    display:flex;
+    background-color: grey;
+    border-radius: 20px;
+    height: 30px;
+    width: 290px;
+    margin-top: 90px;
+    margin-left: 157px
+}
+
+#progress-done{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+     box-shadow: 0 5px 5px -6px #0546e0, 0 3px 7px #1172f9;
+    border-radius: 20px;
+    color: #fff;
+    height: 100%;
+    width: 0%;
+    transition: 1s ease 0.3s;
+}
+
+.progress-text{
+    position: absolute;
+    top: 483px;
+    left: 53rem;
+}
+<!--.progress-hr{-->
+<!--    position: absolute;-->
+<!--    top: 473px;-->
+<!--    left: 56.9rem;-->
+<!--    width: 152px;-->
+<!--}-->
+
+<!--.progress-bar{-->
+<!--    width: 300px;-->
+<!--    height: 3em;-->
+<!--    background-color: grey;-->
+<!--    border-radius: 1.5em;-->
+<!--    color: white;-->
+<!--}-->
+
+<!--.progress-bar::after{-->
+<!--    content: attr(data-label);-->
+<!--    display: flex;-->
+<!--    align-items: center;-->
+<!--    position: absolute;-->
+<!--    left: .5em;-->
+<!--    top: .5em;-->
+<!--    width: calc(var(&#45;&#45;width, 0) * 1%);-->
+<!--    min-width: 2rem;-->
+<!--    max-width: calc(100% - 1em);-->
+<!--    background-color: blue;-->
+<!--    border-radius: .3em;-->
+<!--    padding: .3em;-->
+<!--}-->
+
+.tooltip {
+  position: absolute;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: 23px;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.refresh-button {
+    position: absolute;
+    top: 25rem;
+    right: 7rem;
+}
+
+.client-refresh {
+    top: 27rem;
+}
+
+/* Change text color to white */
+button {
+      color: white;
+      background-color: #3498db;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+button.repository-button {
+    color: white;
+    background-color: #3498db;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.custom-color {
+    color: #fff;
+    overflow-y:auto;
+
+}
+
+<!--.bcustom {-->
+<!--    margin-top: 5px;-->
+<!--}-->
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: blue;
+    color: white;
+}
+#container{
+margin-top: 6px;
+height:285px;
+overflow-y:auto;
+}
+#container1{
+//background: #3c8bcf;
+margin-top: 6px;
+height:145px;
+overflow-y:auto;
+}
+
+<!--#container1::-webkit-scrollbar{-->
+<!--width:25px-->
+<!--}-->
+
+.clientinfobtn{
+
+}
+    </style>
+    
+    
+    <!--    Font awesome styling-->
+    <!--    <script src="https://kit.fontawesome.com/43b1359d62.js" crossorigin="anonymous"></script>-->
+    <!--    <script src="https://kit.fontawesome.com/48bfc2f357.js" crossorigin="anonymous"></script>-->
+    
+    <!--    <script src="https://accounts.google.com/gsi/client" async defer></script>-->
+    
+    <!--    <script src="lib/js/angular.min.js"></script>-->
+    <!--    <script src="lib/js/angular-route.min.js"></script>-->
+    <!--    <script src="js/controller.js"></script>-->
+    <!--    <script src="js/home.js"></script>-->
+    
+    <script src="https://kit.fontawesome.com/43b1359d62.js" crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body>
+
+<!------------------------------------------------------------------->
+<div class="left-imageholder">
+    
+    
+    <!--    <button ng-click="toggleContainer(); showDetails()">Repository</button>-->
+    <button ng-click="showDetails()">Automation Report Repository</button>
+    <div id="container" ng-show="isContainerVisible" class="custom-scrollbar" ng-scrollbar>
+        <!--        <p class="custom-color">This is the content inside the container.</p>-->
+        <table class="custom-table ">
+            <tr>
+                <th>Sl No.</th>
+                <th>Creator Name</th>
+                <!--                <th>Creator Mail</th>-->
+                <th>Mail To</th>
+                <th>Creation Time</th>
+                <th>Report</th>
+            
+            </tr>
+            
+            <tr ng-repeat = "repository in repositories">
+                <!--                <td>{{ repository.repId }}</td>-->
+                <td>{{$index + 1}}</td>
+                <td>{{ repository.username }}</td>
+                <!--                <td>{{ repository.creatorMail }}</td>-->
+                <td>{{ repository.mailto }}</td>
+                <td>{{ repository.creatorTime }}</td>
+                <!--                <td>{{ repository.report }}</td>                               DownloadURL target = _blank-->
+<!--                <td><button ng-click="downloadBlob(repository.repId,repository.creatorTime)"><a href="{{fileUrl}}" target=_blank download="file.txt">Download</a></button></td>-->
+                <td><button ng-click="downloadBlob(repository.repId,repository.creatorTime)">
+                    <a href="{{fileUrl}}" download="file.txt">Download</a></button></td>
+                <!--                <button ng-click="downloadBlob()" download="file.txt">Down</button>&ndash;&gt;-->
+                <!--                <div ng-controller="appController" ng-app="app">-->
+                <!--                <a href="{{fileUrl}}" download="file.txt">download</a>-->
+            </tr>
+        </table>
+    </div>
+    
+    
+    
+    <!--    <button ng-click="toggleContainer1()" ng-class="{ 'bcustom': isContainerVisible1 }">Client Information</button>-->
+    <!--    -->
+    <!--    <div id="container1" ng-show="isContainerVisible1">-->
+    <!--        <p class="custom-color">Client information content inside the container.-->
+    <!--            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>-->
+    <!--    </div>-->
+    
+    <button class="clientinfobtn" ng-click="toggleContainer1(); getclientinformation()">Client Information</button>
+    
+    <div id="container1" ng-show="isContainerVisible1">
+        <p class="custom-color">{{clientinformation}}</p>
+    
+    </div>
+
+</div>
+<!-------------------------------------------------------------------->
+
+
+<div class="formholder">
+    <!-- <h3>Welcome {{name}}</h3>-->
+    <h1>Product Automation for :</h1>
+    
+    
+    
+    <form>
+        
+        <input type="radio" ng-model="myVar" value="core" ng-click="getdatamcube()">MCUBE
+        <input
+            type="radio" ng-model="myVar" value="lva" ng-click="getdatalva()">LVA
+        <input
+            type="radio" ng-model="myVar" value="client" ng-click="getdataclient()">CLIENT
+        <input type="radio" ng-model="myVar" value="installer" ng-click="getdatainstaller()">INSTALLER
+        <input type="radio" ng-model="myVar" value="feature" ng-click="getdatafeature()">FEATURE
+        <input type="radio" ng-model="myVar" value="custom" ng-click="getdatacustom()">CUSTOM
+        <input type="radio" ng-model="myVar" value="regression" ng-click="getdataregression()">Regression
+    
+    
+    </form>
+    
+    <div ng-switch="myVar">
+        
+        <div ng-switch-when="core">
+            <h3>CORE</h3>
+            <p>Welcome to the sanity of MCUBE core.</p>
+            
+            <div>
+                <form>
+                    <div class="formh1">
+                        <label>VERSION:</label> <span>
+						<select ng-model="model.version" ng-change="getDataClientVersion(model.version)">
+
+						<option ng-repeat="version in versions" value="{{version}}">
+							{{version.version}}
+						</option>
+
+						</select></span>
+                    </div>
+                    <div>
+                        <label>URL:</label><input type="text" ng-model="url" ng-disabled="myVar">
+                    </div>
+                    <div>
+                        <label>USERNAME: </label><input type="text" ng-model="username" ng-disabled="myVar">
+                    </div>
+                    <div>
+                        <label>PASSWORD: </label><input type="password" ng-model="password" ng-disabled="myVar">
+                    </div>
+                    <div>
+                        <label>DATASET:</label><input type="text" ng-model="dataset" ng-disabled="myVar">
+                    </div>
+                    <div>
+                        <label>E-MAIL TO:</label><input type="text" ng-model="mailrec">
+                    </div>
+                    <div class="actionbtns">
+                        <input type="reset" onclick="clearField()" value="Reset" style="cursor: pointer;">
+                        <!-- <button ng-click="postdata(urlCore, usernameCore,passwordCore, datasetCore, mailrecCore)">Send</button> -->
+                        <!--<input  type="button" value="Send" onclick="this.disabled=true"  ng-click="postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                                ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                        >-->
+                        <input  type="button" value="Run Automation" ng-click="showalert(); postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                                ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                        >
+                        <input type="button" value="Refresh" ng-click="changeWidth()" class="refresh-button">
+                    </div>
+                </form>
+            </div>
+        
+        </div>
+        
+        
+        <div ng-switch-when="lva" id="formlva">
+            <h3>LVA</h3>
+            <p>Welcome to the sanity of LVA.</p>
+            <form>
+                <div class="formh1">
+                    <label>VERSION:</label> <span>
+						<select ng-model="model.version" ng-change="getDataClientVersion(model.version)">
+
+						<option ng-repeat="version in versions" value="{{version}}" {{$index==0?'selected':''}}>
+							{{version.version}}
+						</option>
+
+						</select></span>
+                </div>
+                <div class="formh1">
+                    <label>URL:</label><input type="text" ng-model="url" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>USERNAME:</label><input type="text" ng-model="username" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>PASSWORD:</label><input type="password" ng-model="password" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>DATASET:</label><input type="text" ng-model="dataset" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>E-MAIL TO:</label><input type="text" ng-model="mailrec">
+                </div>
+                <div class="actionbtns">
+                    <input type="reset" value="Reset" onclick="resetLvaform()" style="cursor: pointer;">
+                    <!--<input type="button" value="Send" ng-click="postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                           ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;">-->
+                    <input  type="button" value="Run Automation" ng-click="showalert(); postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                            ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                    >
+                    
+                    <input type="button" value="Refresh" ng-click="changeWidth()" class="refresh-button">
+                </div>
+            </form>
+        </div>
+        
+        <!--        Installer-->
+        <div ng-switch-when="installer" id="installerform">
+            <h3>Installer</h3>
+            <p>Welcome to the sanity of Installer</p>
+            
+            <div>
+                <form>
+                    <div class="formh1">
+                        <label>VERSION:</label> <span>
+						<select ng-model="model.version" ng-change="getDataClientVersion(model.version)">
+
+
+						<option ng-repeat="version in versions" value="{{version}}" {{$index==0?'selected':''}}>
+							{{version.version}}
+						</option>
+
+						</select></span>
+                    </div>
+                    <div>
+                        <label>URL:</label><input type="text" ng-model="url">
+                    </div>
+                    <div>
+                        <label>USERNAME: </label><input type="text" ng-model="username" ng-disabled="myVar">
+                    </div>
+                    <div>
+                        <label>PASSWORD: </label><input type="password" ng-model="password" ng-disabled="myVar">
+                    </div>
+                    <div class="dataset-installer">
+                        <label>DATASET:</label>
+                        <div class="tooltip">
+                            <i class="fa-solid fa-circle-info iform"></i>
+                            <span class="tooltiptext">Add Dataset</span>
+                        </div>
+                        <input type="text" class="lavelInstaller" ng-model="dataset" >
+                        <!--                        <span class="tooltipText">Add Dataset</span>-->
+                        <!--                        <i class="fa-solid fa-circle-info "></i>-->
+                    
+                    
+                    </div>
+                    <!--                    <i class="fa fa-info-circle" style="font-size:30px"></i>-->
+                    <!--                    <i class="bi bi-info-circle"></i>-->
+                    <!--                    <i class="fa-light fa-user"></i>-->
+                    <div>
+                        <label>E-MAIL TO:</label><input type="text" ng-model="mailrec">
+                    </div>
+                    <div class="actionbtns">
+                        <input type="reset" onclick="clearFieldInstaller()" value="Reset" style="cursor: pointer;">
+                        <!-- <input type="button" value="Send" ng-click="postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                                ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                         >-->
+                        
+                        <input  type="button" value="Run Automation" ng-click="showalert(); postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                                ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                        >
+                        <input type="button" value="Refresh" ng-click="changeWidth()" class="refresh-button">
+                    </div>
+                </form>
+            </div>
+        
+        </div>
+        
+        
+        
+        <div ng-switch-when="client" id="formClient">
+            <h3>CLIENT</h3>
+            <p>Welcome to the Sanity of Client. Please fill the details
+                below :</p>
+
+            <form action="addDetails">
+                <div class="formh1">
+                    <label>CLIENT:</label>
+                    <select
+                            ng-model="model.client" ng-change='getVersion(model.client)'>
+                        
+                        <option ng-repeat="client in clients" value="{{client}}">
+                            {{client}}
+                        </option>
+                    </select>
+                </div>
+                <div class="formh1">
+                    <label>VERSION:</label> <span>
+						<select ng-model="model.version" ng-change="getDataClientVersion(model.version)">
+
+						<option ng-repeat="version in versions" value="{{version}}">
+							{{version.version}}
+						</option>
+
+						</select></span>
+                </div>
+                
+                <div class="formh1">
+                    <label>URL:</label><input type="text" ng-model="url" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>USERNAME:</label><input type="text" ng-model="username" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>PASSWORD:</label><input type="password" ng-model="password" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>DATASET:</label><input type="text" ng-model="dataset" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>E-MAIL TO:</label><input type="text" ng-model="mailrec">
+                </div>
+                <div class="actionbtns">
+                    <input type="reset" value="Reset" style="cursor: pointer;">
+                    <!--<input type="button" value="Send" ng-click="postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                           ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                    >-->
+                    <input  type="button" value="Run Automation" ng-click="showalert(); postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                            ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                    >
+                    <input type="button" value="Refresh" ng-click="changeWidth()" class="refresh-button client-refresh">
+                </div>
+            </form>
+            <!--h3 style="color:lightblue">Selections</h3>
+    <p ng-repeat="model in models">
+        {{model.client}} - {{model.version}}
+    </p-->
+        
+        </div>
+        
+        <!-----------------------------------------Feature------------------------------------------------>
+        
+        <div ng-switch-when="feature" id="formfeature">
+            <h3>FEATURE SPECIFIC</h3>
+            <p>Welcome to the feature based automation. Please fill the details
+                below :</p>
+            
+            <form action="addDetails">
+                <div class="formh1">
+                    <label>FEATURE:</label>
+                    <select
+                            ng-model="model.client" ng-change='getVersion(model.client)'>
+                        
+                        <option ng-repeat="feature in features" value="{{feature}}">
+                            {{feature}}
+                        </option>
+                    </select>
+                </div>
+                <div class="formh1">
+                    <label>VERSION:</label> <span>
+						<select ng-model="model.version" ng-change="getDataClientVersion(model.version)">
+
+						<option ng-repeat="version in versions" value="{{version}}">
+							{{version.version}}
+						</option>
+
+						</select></span>
+                </div>
+                
+                <div class="formh1">
+                    <label>URL:</label><input type="text" ng-model="url" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>USERNAME:</label><input type="text" ng-model="username" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>PASSWORD:</label><input type="password" ng-model="password" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>DATASET:</label><input type="text" ng-model="dataset" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>E-MAIL TO:</label><input type="text" ng-model="mailrec">
+                </div>
+                <div class="actionbtns">
+                    <input type="reset" value="Reset" style="cursor: pointer;">
+                    <!--<input type="button" value="Send" ng-click="postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                           ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                    >-->
+                    <input  type="button" value="Run Automation" ng-click="showalert(); postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                            ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                    >
+                    <input type="button" value="Refresh" ng-click="changeWidth()" class="refresh-button client-refresh">
+                </div>
+            </form>
+            <!--h3 style="color:lightblue">Selections</h3>
+    <p ng-repeat="model in models">
+        {{model.client}} - {{model.version}}
+    </p-->
+        
+        </div>
+        
+        <div ng-switch-when="regression" id="formregression">
+            <h3>REGRESSION SPECIFIC</h3>
+            <p>Welcome to the regression based automation. Please fill the details
+                below :</p>
+            
+            <form action="addDetails">
+                <div class="formh1">
+                    <label>REGRESSION:</label>
+                    <select
+                            ng-model="model.client" ng-change='getVersion(model.client)'>
+                        
+                        <option ng-repeat="regression in regressions" value="{{regression}}">
+                            {{regression}}
+                        </option>
+                    </select>
+                </div>
+                <div class="formh1">
+                    <label>VERSION:</label> <span>
+						<select ng-model="model.version" ng-change="getDataClientVersion(model.version)">
+
+						<option ng-repeat="version in versions" value="{{version}}">
+							{{version.version}}
+						</option>
+
+						</select></span>
+                </div>
+                
+                <div class="formh1">
+                    <label>URL:</label><input type="text" ng-model="url" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>USERNAME:</label><input type="text" ng-model="username" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>PASSWORD:</label><input type="password" ng-model="password" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>DATASET:</label><input type="text" ng-model="dataset" ng-disabled="myVar">
+                </div>
+                <div class="formh1">
+                    <label>E-MAIL TO:</label><input type="text" ng-model="mailrec">
+                </div>
+                <div class="actionbtns">
+                    <input type="reset" value="Reset" style="cursor: pointer;">
+                    <!--<input type="button" value="Send" ng-click="postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                           ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                    >-->
+                    <input  type="button" value="Run Automation" ng-click="showalert(); postdataclient(url,username,password,dataset,mailrec,model,myVar)"
+                            ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                    >
+                    <input type="button" value="Refresh" ng-click="changeWidth()" class="refresh-button client-refresh">
+                </div>
+            </form>
+            <!--h3 style="color:lightblue">Selections</h3>
+    <p ng-repeat="model in models">
+        {{model.client}} - {{model.version}}
+    </p-->
+        
+        </div>
+        
+        <div ng-switch-when="custom">
+            <h3>CUSTOM</h3>
+            <p>Welcome to the sanity of Custom Environment.</p>
+            
+            <div>
+                <form>
+                    <!--                    <div class="formh1">-->
+                    <!--                        <label>VERSION:</label> <span>-->
+                    <!--						<select ng-model="model.version" ng-change="getDataClientVersion(model.version)">-->
+                    
+                    <!--						<option ng-repeat="version in versions" value="{{version}}">-->
+                    <!--							{{version.version}}-->
+                    <!--						</option>-->
+                    
+                    <!--						</select></span>-->
+                    <!--                    </div>-->
+                    <div>
+                        <label>URL:</label><input type="text" ng-model="url">
+                    </div>
+                    <div>
+                        <label>USERNAME: </label><input type="text" ng-model="username" >
+                    </div>
+                    <div>
+                        <label>PASSWORD: </label><input type="password" ng-model="password" >
+                    </div>
+                    <div>
+                        <label>DATASET:</label><input type="text" ng-model="dataset" >
+                    </div>
+                    <div>
+                        <label>E-MAIL TO:</label><input type="text" ng-model="mailrec">
+                    </div>
+                    <div class="actionbtns">
+                        <input type="reset" onclick="clearField()" value="Reset" style="cursor: pointer;">
+                        
+                        <input  type="button" value="Run Automation" ng-click="showalert(); postdatacustom(url,username,password,dataset,mailrec,model,myVar)"
+                                ng-disabled="button.disabled||!url||!username||!password||!dataset||!mailrec" style="cursor: pointer;"
+                        >
+                        <input type="button" value="Refresh" ng-click="changeWidth()" class="refresh-button">
+                    </div>
+                </form>
+            </div>
+        
+        </div>
+    
+    </div>
+    <!--    progress bar-->
+    <!--    <div class="bottom">-->
+    <!--        <h4>Automation Progress</h4>-->
+    <!--        <input type="range" name="range" id="myProgressbar" min="0" value="0" max="100" style="width: 26vw; height: 60px;">-->
+    <!--    </div>-->
+    <h4 class="progress-text">Automation Progress: </h4>
+    <div id="progress">
+        <div id="progress-done"></div>
+    </div>
+
+</div>
+
+
+<!--<i class="fa-light fa-user"></i>-->
+
+<div class="footer">Powered by mcubeQA</div>
+
+<script src="js/home.js"></script>
+<script type="text/javascript" src="https://alcdn.msauth.net/browser/2.13.0/js/msal-browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/js/angular.min.js"></script>
+<script src="lib/js/angular-route.min.js"></script>
+<script src="js/controller.js"></script>
+
+
+
+
+</body>
+
+</html>

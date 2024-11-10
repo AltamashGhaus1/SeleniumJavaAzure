@@ -1,0 +1,51 @@
+[1;34m2023-01-12 12:26:06,903[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:?[0;39m - HikariPool-1 - Shutdown initiated...
+[1;34m2023-01-12 12:26:06,944[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:352[0;39m - HikariPool-1 - Shutdown completed.
+[1;34m2023-01-12 12:26:21,010[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:55[0;39m - Starting SeleniumDrApplication using Java 11.0.11 on TCGDRLap198 with PID 33864 (D:\SeleniumDR_Test\target\classes started by NandishM in D:\SeleniumDR_Test)
+[1;34m2023-01-12 12:26:21,016[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:634[0;39m - No active profile set, falling back to 1 default profile: "default"
+[1;34m2023-01-12 12:26:24,684[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:108[0;39m - Tomcat initialized with port(s): 8080 (http)
+[1;34m2023-01-12 12:26:24,719[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+[1;34m2023-01-12 12:26:24,721[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardService:173[0;39m - Starting service [Tomcat]
+[1;34m2023-01-12 12:26:24,722[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine:173[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[1;34m2023-01-12 12:26:25,592[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring embedded WebApplicationContext
+[1;34m2023-01-12 12:26:25,593[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292[0;39m - Root WebApplicationContext: initialization completed in 4521 ms
+[1;34m2023-01-12 12:26:27,090[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+[1;34m2023-01-12 12:26:27,161[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:220[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+[1;34m2023-01-12 12:26:27,195[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:61[0;39m - Started SeleniumDrApplication in 6.94 seconds (JVM running for 12.569)
+[1;34m2023-01-12 12:27:06,451[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:55[0;39m - Starting SeleniumDrApplication using Java 11.0.11 on TCGDRLap198 with PID 30672 (D:\SeleniumDR_Test\target\classes started by NandishM in D:\SeleniumDR_Test)
+[1;34m2023-01-12 12:27:06,457[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:634[0;39m - No active profile set, falling back to 1 default profile: "default"
+[1;34m2023-01-12 12:27:08,522[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:108[0;39m - Tomcat initialized with port(s): 8080 (http)
+[1;34m2023-01-12 12:27:08,534[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+[1;34m2023-01-12 12:27:08,535[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardService:173[0;39m - Starting service [Tomcat]
+[1;34m2023-01-12 12:27:08,535[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine:173[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[1;34m2023-01-12 12:27:08,962[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring embedded WebApplicationContext
+[1;34m2023-01-12 12:27:08,963[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292[0;39m - Root WebApplicationContext: initialization completed in 2441 ms
+[1;34m2023-01-12 12:27:09,868[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+[1;34m2023-01-12 12:27:09,906[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:220[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+[1;34m2023-01-12 12:27:09,919[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:61[0;39m - Started SeleniumDrApplication in 3.999 seconds (JVM running for 5.164)
+[1;34m2023-01-12 12:27:15,774[0;39m - [34mINFO [0;39m [36morg.apache.tomcat.util.http.parser.Cookie:173[0;39m - A cookie header was received [g_state={"i_l":0}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[1;34m2023-01-12 12:27:15,787[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[1;34m2023-01-12 12:27:15,787[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:525[0;39m - Initializing Servlet 'dispatcherServlet'
+[1;34m2023-01-12 12:27:15,788[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:547[0;39m - Completed initialization in 1 ms
+[1;34m2023-01-12 12:27:28,686[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:110[0;39m - HikariPool-1 - Starting...
+[1;34m2023-01-12 12:27:29,049[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:123[0;39m - HikariPool-1 - Start completed.
+[1;34m2023-01-12 12:40:52,874[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:350[0;39m - HikariPool-1 - Shutdown initiated...
+[1;34m2023-01-12 12:40:52,901[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:352[0;39m - HikariPool-1 - Shutdown completed.
+[1;34m2023-01-12 12:51:12,873[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:55[0;39m - Starting SeleniumDrApplication using Java 11.0.11 on TCGDRLap198 with PID 4160 (D:\SeleniumDR_Test\target\classes started by NandishM in D:\SeleniumDR_Test)
+[1;34m2023-01-12 12:51:12,879[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:634[0;39m - No active profile set, falling back to 1 default profile: "default"
+[1;34m2023-01-12 12:51:14,960[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:108[0;39m - Tomcat initialized with port(s): 8080 (http)
+[1;34m2023-01-12 12:51:14,972[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+[1;34m2023-01-12 12:51:14,973[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardService:173[0;39m - Starting service [Tomcat]
+[1;34m2023-01-12 12:51:14,973[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine:173[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[1;34m2023-01-12 12:51:15,401[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring embedded WebApplicationContext
+[1;34m2023-01-12 12:51:15,402[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292[0;39m - Root WebApplicationContext: initialization completed in 2454 ms
+[1;34m2023-01-12 12:51:16,007[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+[1;34m2023-01-12 12:51:16,044[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:220[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+[1;34m2023-01-12 12:51:16,058[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:61[0;39m - Started SeleniumDrApplication in 3.703 seconds (JVM running for 4.827)
+[1;34m2023-01-12 12:51:22,189[0;39m - [34mINFO [0;39m [36morg.apache.tomcat.util.http.parser.Cookie:?[0;39m - A cookie header was received [g_state={"i_l":0}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[1;34m2023-01-12 12:51:22,198[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[1;34m2023-01-12 12:51:22,199[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:?[0;39m - Initializing Servlet 'dispatcherServlet'
+[1;34m2023-01-12 12:51:22,204[0;39m - [34mINFO [0;39m [36morg.springframework.web.servlet.DispatcherServlet:547[0;39m - Completed initialization in 4 ms
+[1;34m2023-01-12 12:51:30,124[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:110[0;39m - HikariPool-1 - Starting...
+[1;34m2023-01-12 12:51:31,025[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:123[0;39m - HikariPool-1 - Start completed.
