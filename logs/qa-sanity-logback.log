@@ -1,16 +1,18 @@
-[1;34m2024-10-28 15:24:59,077[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:?[0;39m - Starting SeleniumDrApplication using Java 11.0.16 on TCGDRLap266 with PID 36160 (D:\AG\Selenium_AA_Clone_CTEC\target\classes started by AltamashG in D:\AG\Selenium_AA_Clone_CTEC)
-[1;34m2024-10-28 15:24:59,100[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:634[0;39m - No active profile set, falling back to 1 default profile: "default"
-[1;34m2024-10-28 15:25:03,338[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:108[0;39m - Tomcat initialized with port(s): 8080 (http)
-[1;34m2024-10-28 15:25:03,340[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
-[1;34m2024-10-28 15:25:03,341[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
-[1;34m2024-10-28 15:25:03,342[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-[1;34m2024-10-28 15:25:03,350[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
-[1;34m2024-10-28 15:25:03,369[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
-[1;34m2024-10-28 15:25:03,371[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardService:173[0;39m - Starting service [Tomcat]
-[1;34m2024-10-28 15:25:03,372[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine:173[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
-[1;34m2024-10-28 15:25:03,993[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring embedded WebApplicationContext
-[1;34m2024-10-28 15:25:03,994[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292[0;39m - Root WebApplicationContext: initialization completed in 4692 ms
-[1;34m2024-10-28 15:25:04,313[0;39m - [34mINFO [0;39m [36morg.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:?[0;39m - Autowired annotation is not supported on static fields: private static org.springframework.jdbc.core.JdbcTemplate com.jdbc.dao.PercentageCountDao.jdbcTemplate
-[1;34m2024-10-28 15:25:05,460[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:?[0;39m - Starting ProtocolHandler ["http-nio-8080"]
-[1;34m2024-10-28 15:25:05,507[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:220[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
-[1;34m2024-10-28 15:25:05,522[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:61[0;39m - Started SeleniumDrApplication in 7.186 seconds (JVM running for 12.14)
+[1;34m2025-05-13 11:11:19,618[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:?[0;39m - HikariPool-1 - Shutdown initiated...
+[1;34m2025-05-13 11:11:19,654[0;39m - [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource:?[0;39m - HikariPool-1 - Shutdown completed.
+[1;34m2025-05-13 11:11:34,398[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:55[0;39m - Starting SeleniumDrApplication using Java 11.0.16 on TCGDRLap266 with PID 40308 (D:\AG\Selenium_AA_Clone_CTEC\target\classes started by AltamashG in D:\AG\Selenium_AA_Clone_CTEC)
+[1;34m2025-05-13 11:11:34,407[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:634[0;39m - No active profile set, falling back to 1 default profile: "default"
+[1;34m2025-05-13 11:11:38,469[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:108[0;39m - Tomcat initialized with port(s): 8080 (http)
+[1;34m2025-05-13 11:11:38,470[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[1;34m2025-05-13 11:11:38,471[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[1;34m2025-05-13 11:11:38,471[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[1;34m2025-05-13 11:11:38,478[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.AprLifecycleListener:173[0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[1;34m2025-05-13 11:11:38,508[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+[1;34m2025-05-13 11:11:38,509[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardService:173[0;39m - Starting service [Tomcat]
+[1;34m2025-05-13 11:11:38,510[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine:173[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[1;34m2025-05-13 11:11:39,064[0;39m - [34mINFO [0;39m [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173[0;39m - Initializing Spring embedded WebApplicationContext
+[1;34m2025-05-13 11:11:39,065[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292[0;39m - Root WebApplicationContext: initialization completed in 4559 ms
+[1;34m2025-05-13 11:11:39,299[0;39m - [34mINFO [0;39m [36morg.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:478[0;39m - Autowired annotation is not supported on static fields: private static org.springframework.jdbc.core.JdbcTemplate com.jdbc.dao.PercentageCountDao.jdbcTemplate
+[1;34m2025-05-13 11:11:39,923[0;39m - [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol:173[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+[1;34m2025-05-13 11:11:39,958[0;39m - [34mINFO [0;39m [36morg.springframework.boot.web.embedded.tomcat.TomcatWebServer:220[0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+[1;34m2025-05-13 11:11:39,974[0;39m - [34mINFO [0;39m [36mcom.jdbc.SeleniumDrApplication:61[0;39m - Started SeleniumDrApplication in 6.615 seconds (JVM running for 8.424)

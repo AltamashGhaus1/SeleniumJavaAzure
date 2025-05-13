@@ -14,6 +14,7 @@ import com.jdbc.automation.executor.mcube4520.com.mcube.qa.sanity.McubeSanity_45
 import com.jdbc.automation.executor.mcube4530.com.mcube.qa.sanity.McubeSanity_4530;
 import com.jdbc.automation.executor.mcube4540.com.mcube.qa.sanity.McubeSanity_4540;
 import com.jdbc.automation.executor.mcube4550.com.mcube.qa.sanity.McubeSanity_4550;
+import com.jdbc.automation.executor.mcube510.com.mcube.qa.sanity.McubeSanity_510;
 import com.jdbc.automation.executor.mdi4531.com.mcube.qa.sanity.MdiSanity_4531;
 import com.jdbc.dao.ClientVersionDao;
 import org.json.JSONArray;
@@ -158,8 +159,8 @@ public class SanityService {
             else if (version.equalsIgnoreCase("4.5.5.0")) {
                 reportFile= McubeSanity_4550.executeAutomation(url,username,password,dataset,mailto,createdBy,createdByName,client,version,clientVersionDao,idd);
             }
-            else if (version.equalsIgnoreCase("4.5.5.0")) {
-                reportFile= McubeSanity_4550.executeAutomation(url,username,password,dataset,mailto,createdBy,createdByName,client,version,clientVersionDao,idd);
+            else if (version.equalsIgnoreCase("5.1.0.0")) {
+                reportFile= McubeSanity_510.executeAutomation(url,username,password,dataset,mailto,createdBy,createdByName,client,version,clientVersionDao,idd);
             }
             else if (version.equalsIgnoreCase("MDI_4531")) {
                 reportFile= MdiSanity_4531.executeAutomation(url,username,password,dataset,mailto,createdBy,createdByName,client,version,clientVersionDao,idd);

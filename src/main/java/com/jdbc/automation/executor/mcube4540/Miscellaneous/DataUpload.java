@@ -1,7 +1,7 @@
 package com.jdbc.automation.executor.mcube4540.Miscellaneous;
 
 import com.jdbc.automation.executor.Common.Records;
-import com.jdbc.automation.executor.mcube4540.Common.SeleniumUtils;
+import com.jdbc.automation.executor.mcube510.Common.SeleniumUtils;
 import com.jdbc.dao.ClientVersionDao;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

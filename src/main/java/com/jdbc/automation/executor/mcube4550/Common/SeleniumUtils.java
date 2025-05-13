@@ -4070,4 +4070,6 @@ public class SeleniumUtils {
     }// end of method
 
 
+    public static void waitForPageLoad(WebDriver driver) {
+    }
 }
