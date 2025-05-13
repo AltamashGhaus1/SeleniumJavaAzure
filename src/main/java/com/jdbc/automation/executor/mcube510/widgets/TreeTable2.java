@@ -98,7 +98,9 @@ public class TreeTable2 {
                                             driver.findElement(By.xpath("//i[@id='2metricExpandButtonIID']")).click();
                                             System.out.println("Split Rows X is expanded for Terms");
                                         } catch (InterruptedException e) {
-                                            System.out.println("1. Terms Catch e:"+e);
+                                            System.out.println("1. Terms Catch e:" + e);
+                                            //System.out.println("2. Terms Catch e:"+e);
+                                            //System.out.println("3. Terms Catch e:"+e);
                                         }
                                     }
                                 } catch (Exception e) {
