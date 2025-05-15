@@ -75,7 +75,7 @@ public class Combo5 {
                 System.out.println("Region is selected");
                 driver.findElement(By.xpath("//i[@id='SBIID']")).click();
                 driver.findElement(By.xpath("//a[@id='SBOAID']")).click();
-                driver.findElement(By.xpath("(//i[@id='mCubeVPIID'])[6]")).click();
+                driver.findElement(By.xpath("(//i[@id='mCubeVPIID'])[7]")).click();
                 System.out.println("Y axis is clicked");
 //                driver.findElement(By.xpath("(//input[@type='checkbox'])[8]")).click();
                 driver.findElement(By.xpath("(//input[@type='checkbox'])[10]")).click();
@@ -148,7 +148,7 @@ public class Combo5 {
 //                driver.findElement(By.xpath("(//div[@class='colorpicker-circle']/div[@class='circle-inner'])[3]")).click();
 ////                colorBox1 = WebUI.modifyObjectProperty(findTestObject('Object Repository/Combo5
 ////                /Page_mcube/div_Wheel_color-unit (1)'), 'xpath', 'equals',
-////                ('//*[@class=\'colorpicker dropdown position-top\']/div[2]/div[' +
+////                ('//*[@class='colorpicker dropdown position-top\']/div[2]/div[' +
 ////                        i2) + ']/div', true)      Need to convert
 //                driver.findElement(By.xpath("//*[@class='colorpicker dropdown position-top']/div[2]/div['i2']/div")).click();
 //                Thread.sleep(5000);
@@ -239,9 +239,9 @@ public class Combo5 {
         finally {
 
             record.setSan_aut_id(san_aut_id);
-            record.setTestCaseName("SAN-COMBO-03");
+            record.setTestCaseName("SAN-COMBO-05");
             record.setOutcome(actualOutcome);
-            record.setName("COMBO Chart.");
+            record.setName("COMBO Chart 5");
             record.setScreenShot(screenShot);
             record.setExpectedResult("Combo chart completed successfully.");
             clientVersionDao.setRecordDetails(record);

@@ -31,6 +31,7 @@ public class TreeTable2 {
         boolean flag= true;
         int n=0;
         String name = "null";
+        String nameAltamash1 = "null";
         String temp="false";
         String error="";
         String XAxis = "Range";

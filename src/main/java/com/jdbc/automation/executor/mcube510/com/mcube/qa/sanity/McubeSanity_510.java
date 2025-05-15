@@ -16,10 +16,11 @@ import com.jdbc.automation.executor.mcube510.com.mcube.qa.sanity.email.EmailSend
 import com.jdbc.automation.executor.mcube510.com.mcube.qa.sanity.pdf.creator.PdfCreator;
 import com.jdbc.automation.executor.mcube510.widgets.*;
 import com.jdbc.dao.ClientVersionDao;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -57,13 +58,13 @@ public class McubeSanity_510 {
         try {
 
             Thread.sleep(3000);
-            WebDriverManager.chromedriver().clearDriverCache().setup();
-            WebDriverManager.chromedriver().setup();
+//            WebDriverManager.chromedriver().clearDriverCache().setup();
+//            WebDriverManager.chromedriver().setup();
 
-//            System.setProperty("webdriver.chrome.driver","C://Selenium//web_driver//chromedriver_win32//chromedriver.exe");
-//            ChromeOptions options = new ChromeOptions();
-//            options.addArguments("--remote-allow-origins=*");
-//            driver = new ChromeDriver(options);
+            System.setProperty("webdriver.chrome.driver","C://Selenium//web_driver//chromedriver_win32//chromedriver.exe");
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--remote-allow-origins=*");
+            driver = new ChromeDriver(options);
 
             Records record=new Records();
             record.setTestCaseName("SAN-URL-01");
@@ -103,20 +104,20 @@ public class McubeSanity_510 {
 //            System.out.println("");
 //            Thread.sleep(3000000);
 //            Navbar.tilesButton(driver,"BI");
-            PreStepsForWidget.presteps(driver, wait, "Tree Table", listOb,dataset,clientVersionDao,san_aut_id);
+            PreStepsForWidget.presteps(driver, wait, "Combo", listOb,dataset,clientVersionDao,san_aut_id);
 
 //              widgetList.add(TreeTable.treeTable(driver, wait, listOb,clientVersionDao,san_aut_id));
 //              widgetList.add(TreeTable1Anshu.treeTable1(driver, wait, listOb, clientVersionDao, san_aut_id));
-//              widgetList.add(TreeTable2.treeTable2(driver, wait, listOb,clientVersionDao,san_aut_id));
+//              widgetList.add(TreeTable2.treeTable2(driver, wait, listOb,clientVersionDao,san_aut_id,dataset));
+
 //            widgetList.add(AreaChart1.areaChart(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
-//            widgetList.add(TreeTable.treeTable(driver, wait, listOb,clientVersionDao,san_aut_id));
 //            widgetList.add(TreeTable1.treeTable1(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
-            widgetList.add(TreeTable2.treeTable2(driver, wait, listOb,clientVersionDao,san_aut_id,dataset));
+//
 //            widgetList.add(Combo1.combo1(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
 //            widgetList.add(Combo2.combo2(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
 //            widgetList.add(Combo3.combo3(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
 //            widgetList.add(Combo4.combo4(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
-//            widgetList.add(Combo5.combo5(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
+            widgetList.add(Combo5.combo5(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
 //            widgetList.add(Combo6.combo6(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
 //            widgetList.add(VerticalBar1.verticalbar1(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
 //            widgetList.add(VerticalBar2.verticalbar2(driver, wait, listOb,clientVersionDao,san_aut_id, dataset));
